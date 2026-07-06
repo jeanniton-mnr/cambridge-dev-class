@@ -3,8 +3,13 @@
     max-width: 30rem;
 }
 
+.highlight {
+    background-color: yellow;
+    padding: 0 0.3rem;
+}
+
 .div-with-border {
-    border: 1px solid darkslateblue;
+    border: 1px dashed darkslateblue;
     padding: 1rem;
     color: darkslateblue;
 }
@@ -14,4 +19,9 @@
     padding: 1rem;
     color: white;
     margin-top: 1rem;
+}
+
+.inline-div {
+    background-color: rgba(71, 61, 139, 0.3);
+    display: inline-block;
 }
